@@ -2,8 +2,7 @@ import tkinter as tk
 import pygame
 import time
 from tkinter import *
-global n
-n=None
+
 pygame.mixer.pre_init(50100,-16,1,512)
 pygame.init()
 
@@ -25,145 +24,145 @@ def piano(event):
     if num=="Q" or num=="q":
 
         W1.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\A.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\A.wav')
         sound.play()
 
         master.after(100,lambda: W1.config(bg="white"))
 
     elif num=="w" or num=="W":
         W2.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\B.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\B.wav')
         sound.play()
         master.after(100,lambda: W2.config(bg="white"))
 
     elif num=="e" or num=="E":
         W3.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\Bb.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\Bb.wav')
         sound.play()
         master.after(100,lambda: W3.config(bg="white"))
 
     elif num=="R" or num=="r":
         W4.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\C_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\C_s.wav')
         sound.play()
         master.after(100,lambda: W4.config(bg="white"))
 
     elif num=="t" or num=="T":
         W5.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\C_s1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\C_s1.wav')
         sound.play()
         master.after(100,lambda: W5.config(bg="white"))
 
     elif num=="Y" or num=="y":
         W6.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\C1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\C1.wav')
         sound.play()
         master.after(100,lambda: W6.config(bg="white"))
 
     elif num=="u" or num=="U":
         W7.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D.wav')
         sound.play()
         master.after(100,lambda: W7.config(bg="white"))
 
     elif num=="A" or num=="a":
         W8.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D_s.wav')
         sound.play()
         master.after(100,lambda: W8.config(bg="white"))
 
     elif num=="s" or num=="S":
         W9.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D_s1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D_s1.wav')
         sound.play()
         master.after(100,lambda: W9.config(bg="white"))
 
     elif num=="D" or num=="d":
         W10.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D1.wav')
         sound.play()
         master.after(100,lambda: W10.config(bg="white"))
 
     elif num=="F" or num=="f":
         W11.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\E.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\E.wav')
         sound.play()
         master.after(100,lambda: W11.config(bg="white"))
 
     elif num=="G" or num=="g":
         W12.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\F.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\F.wav')
         sound.play()
         master.after(100,lambda: W12.config(bg="white"))
 
     elif num=="H" or num=="h":
         W13.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\F_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\F_s.wav')
         sound.play()
         master.after(100,lambda: W13.config(bg="white"))
 
     elif num=="J" or num=="j":
         W14.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\F1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\F1.wav')
         sound.play()
         master.after(100,lambda: W14.config(bg="white"))
 
     elif num=="1":
         B1.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G.wav')
         sound.play()
         master.after(100,lambda: B1.config(bg="black"))
 
     elif num=="2" :
         B2.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B2.config(bg="black"))
 
     elif num=="3" :
         B3.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B3.config(bg="black"))
 
     elif num=="4" :
         B4.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B4.config(bg="black"))
 
     elif num=="5" :
         B5.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B5.config(bg="black"))
     elif num=="6" :
         B6.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B6.config(bg="black"))
 
     elif num=="7" :
         B7.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B7.config(bg="black"))
 
     elif num=="8" :
         B8.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B8.config(bg="black"))
 
     elif num=="9" :
         B9.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B9.config(bg="black"))
 
     elif num=="0" :
         B10.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B10.config(bg="black"))
 
@@ -178,145 +177,145 @@ def synth(event):
     if num=="Q" or num=="q":
 
         W1.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\B.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\Steel_Drum\A_Drum.wav')
         sound.play()
 
         master.after(100,lambda: W1.config(bg="white"))
 
     elif num=="w" or num=="W":
         W2.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\B.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\B.wav')
         sound.play()
         master.after(100,lambda: W2.config(bg="white"))
 
     elif num=="e" or num=="E":
         W3.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\Bb.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\Bb.wav')
         sound.play()
         master.after(100,lambda: W3.config(bg="white"))
 
     elif num=="R" or num=="r":
         W4.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\C_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\C_s.wav')
         sound.play()
         master.after(100,lambda: W4.config(bg="white"))
 
     elif num=="t" or num=="T":
         W5.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\C_s1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\C_s1.wav')
         sound.play()
         master.after(100,lambda: W5.config(bg="white"))
 
     elif num=="Y" or num=="y":
         W6.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\C1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\C1.wav')
         sound.play()
         master.after(100,lambda: W6.config(bg="white"))
 
     elif num=="u" or num=="U":
         W7.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D.wav')
         sound.play()
         master.after(100,lambda: W7.config(bg="white"))
 
     elif num=="A" or num=="a":
         W8.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D_s.wav')
         sound.play()
         master.after(100,lambda: W8.config(bg="white"))
 
     elif num=="s" or num=="S":
         W9.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D_s1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D_s1.wav')
         sound.play()
         master.after(100,lambda: W9.config(bg="white"))
 
     elif num=="D" or num=="d":
         W10.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\D1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\D1.wav')
         sound.play()
         master.after(100,lambda: W10.config(bg="white"))
 
     elif num=="F" or num=="f":
         W11.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\E.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\E.wav')
         sound.play()
         master.after(100,lambda: W11.config(bg="white"))
 
     elif num=="G" or num=="g":
         W12.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\F.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\F.wav')
         sound.play()
         master.after(100,lambda: W12.config(bg="white"))
 
     elif num=="H" or num=="h":
         W13.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\F_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\F_s.wav')
         sound.play()
         master.after(100,lambda: W13.config(bg="white"))
 
     elif num=="J" or num=="j":
         W14.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\F1.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\F1.wav')
         sound.play()
         master.after(100,lambda: W14.config(bg="white"))
 
     elif num=="1":
         B1.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G.wav')
         sound.play()
         master.after(100,lambda: B1.config(bg="black"))
 
     elif num=="2" :
         B2.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B2.config(bg="black"))
 
     elif num=="3" :
         B3.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B3.config(bg="black"))
 
     elif num=="4" :
         B4.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B4.config(bg="black"))
 
     elif num=="5" :
         B5.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B5.config(bg="black"))
     elif num=="6" :
         B6.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B6.config(bg="black"))
 
     elif num=="7" :
         B7.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B7.config(bg="black"))
 
     elif num=="8" :
         B8.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B8.config(bg="black"))
 
     elif num=="9" :
         B9.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B9.config(bg="black"))
 
     elif num=="0" :
         B10.config(bg="#66b5ff")
-        sound = pygame.mixer.Sound(r'C:\Users\Tushar Gupta\OneDrive\Desktop\Music_Notes\G_s.wav')
+        sound = pygame.mixer.Sound(r'C:\Users\HITESHWAR SINGH\Desktop\Cg\CGProject\Music_Notes\G_s.wav')
         sound.play()
         master.after(100,lambda: B10.config(bg="black"))
 
@@ -338,9 +337,9 @@ master.bind("<Key>",d)
     print(inputvalue)
     return inputvalue"""
 def sw(m):
+    global n 
     n=m
-    print(n)
-    return n
+    return m
 
 
 
